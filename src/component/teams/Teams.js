@@ -1,0 +1,63 @@
+import React, { useState } from 'react';
+import cssteam from './teamMembers.module.css';
+import image4 from '../../img/image (4).jpg';
+import image5 from '../../img/skills images/namaste-react.webp';
+
+const Team = [
+  {
+    name: "BHAGAT SINGH",
+    designation: "Director",
+    image: image5,
+    social: [
+      { platform: "facebook", icon: "fab fa-facebook-f", link: "#" },
+      { platform: "twitter", icon: "fab fa-twitter", link: "#" },
+      { platform: "instagram", icon: "fab fa-instagram", link: "#" },
+      { platform: "linkedin", icon: "fab fa-linkedin-in", link: "#" },
+    ],
+  },
+  // {
+  //   name: "PULKIT CHOUDHARY",
+  //   designation: "Director",
+  //   image: image4,
+  //   social: [
+  //     { platform: "facebook", icon: "fab fa-facebook-f", link: "#" },
+  //     { platform: "twitter", icon: "fab fa-twitter", link: "#" },
+  //     { platform: "instagram", icon: "fab fa-instagram", link: "#" },
+  //     { platform: "linkedin", icon: "fab fa-linkedin-in", link: "#" },
+  //   ],
+  // },
+];
+
+const TeamSection = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  return (
+    <section className={cssteam.team} id="team">
+      <div className={cssteam.teams_container}>
+        <div className={cssteam.row}>
+          <div className={cssteam.col_12}>
+            <div className={`herotext ${cssteam.herotext} ${cssteam.text_center}`}>
+              {/* <h6>MEET OUR TEAM!</h6> */}
+              <h2>Achievements & Certifications in Front-End Development</h2>
+              <h5 className="pt-2">A group of cattle professionals committed to revolutionizing cattle field solutions.</h5>
+            </div>
+          </div>
+        </div>
+
+        <div className={cssteam.team_carousel_wrapper}>
+          <div className={cssteam.team_carousel}>
+            {Team.slice(currentIndex, currentIndex + 3).map((member, index) => (
+              <div className={`team-item ${cssteam.team_item}`} key={index}>
+                <img className={cssteam.img_fluid} src={member.image} alt={member.name} />
+                {/* <h5>{member.name}</h5>
+                <p>{member.designation}</p> */}
+
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default TeamSection;

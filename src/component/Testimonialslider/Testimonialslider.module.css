@@ -1,0 +1,260 @@
+.testimonial{
+    background-color:rgb(1, 1, 1);
+    text-align: center;
+    padding: 50px;
+    font-family: "Poppins", sans-serif;
+
+}
+.testimonial h6{
+    /* font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #27AE60;
+    margin-bottom: 10px; */
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ebefec;
+}
+.testimonial h2{
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    color: #ebefec;
+    letter-spacing: 0.1rem;
+  
+}
+.testimonial h5{
+    font-size: 18px;
+    line-height: 26px;
+    color: #ebefec;
+    font-weight: 400;
+    
+}
+.swiper_container {
+    width: 100%;
+    height: fit-content;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    padding-bottom: 50px;
+    color:rgb(70, 68, 68);
+}
+
+.swiper_slide {
+    background-color: rgba(6, 6, 6, 0.9);
+    padding: 20px 0px;
+}
+
+.fade{
+    width: 100%;
+    height: 100%;
+
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0px;
+}
+
+.slide_content {
+    text-align: center;
+    padding-top: 0px;
+}
+
+.slide_content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 150px;
+    object-fit: cover;
+}
+
+.slide_content_text {
+    width: 80%;
+    margin: 0px auto;
+    height: fit-content;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px rgb(212, 211, 211);
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.swiper_button_next, .swiper_button_prev {
+    background-color:#f2f6f4;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    padding: 30px;
+    color: rgb(3, 3, 3);
+    scale: 0.7;
+    opacity: 0; /* Initially invisible */
+    position: absolute;
+    transition: transform 0.6s ease, opacity 0.6s ease; /* Smooth transition for position and opacity */
+}
+
+.swiper_button_prev {
+    left: 35%; /* Start off-screen from the left */
+    top: 15%;
+    /* transform: translateY(-50%); */
+}
+
+.swiper_button_next {
+    right: 35%; /* Start off-screen from the right */
+    top: 15%;
+    /* transform: translateY(-50%); */
+}
+
+.swiper_container:hover .swiper_button_next {
+    transform: translateX(-100px); /* Move the next button into view */
+    opacity: 1; /* Fade in */
+}
+
+.swiper_container:hover .swiper_button_prev {
+    transform: translateX(100px); /* Move the previous button into view */
+    opacity: 1; /* Fade in */
+}
+
+.swiper_pagination {
+    position: absolute;
+    bottom: 20px;
+right: 0%;
+    }
+
+ .swiper_pagination span{
+
+text-align: center;
+background-color:#27AE60;
+
+  z-index: 3;
+}
+@media (max-width:1024px) and (min-width:768px){
+    .swiper_button_next, .swiper_button_prev {
+        background-color:#27AE60;
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        padding: 30px;
+        color: white;
+        scale: 0.7;
+        opacity: 0; /* Initially invisible */
+        position: absolute;
+        transition: transform 0.6s ease, opacity 0.6s ease; /* Smooth transition for position and opacity */
+    }
+    
+    .swiper_button_prev {
+        left: 25%; /* Start off-screen from the left */
+        top: 15%;
+        /* transform: translateY(-50%); */
+    }
+    
+    .swiper_button_next {
+        right: 25%; /* Start off-screen from the right */
+        top: 15%;
+        /* transform: translateY(-50%); */
+    }
+    
+    .swiper_container:hover .swiper_button_next {
+        transform: translateX(-100px); /* Move the next button into view */
+        opacity: 1; /* Fade in */
+    }
+    
+    .swiper_container:hover .swiper_button_prev {
+        transform: translateX(100px); /* Move the previous button into view */
+        opacity: 1; /* Fade in */
+    }
+    
+    .swiper_pagination {
+        position: absolute;
+        bottom: 20px;
+    right: 0%;
+        }
+    
+     .swiper_pagination span{
+    
+    text-align: center;
+    background-color:#27AE60;
+    
+      z-index: 3;
+    }
+    }
+
+    @media (max-width:768px){
+       
+        .testimonial{ 
+            background-color:white;
+            text-align: center;
+            padding: 20px;
+            font-family: "Poppins", sans-serif;
+        
+        }
+        .testimonial h6{
+            font-size: 16px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #27AE60;
+            margin-bottom: 10px;
+        }
+        .testimonial h2{
+            font-size: 26px;
+            line-height: 40px;
+            margin-bottom: 10px;
+            letter-spacing: 0.1rem;
+          
+        }
+        .testimonial h5{
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
+            
+        }
+        
+        .swiper_button_next, .swiper_button_prev {
+            background-color: #27AE60;
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            padding: 30px;
+            color: white;
+            scale: 0.7;
+            opacity: 1; /* Initially invisible */
+            position: absolute;
+            transition: transform 0.6s ease, opacity 0.6s ease; /* Smooth transition for position and opacity */
+        }
+        
+        .swiper_button_prev {
+            left: 10%; /* Start off-screen from the left */
+            top: 15%;
+            /* transform: translateY(-50%); */
+        }
+        
+        .swiper_button_next {
+            right: 10%; /* Start off-screen from the right */
+            top: 15%;
+            /* transform: translateY(-50%); */
+        }
+        
+        .swiper_container:hover .swiper_button_next {
+            transform: translateX(0px);
+            opacity: 1; /* Fade in */
+        }
+        
+        .swiper_container:hover .swiper_button_prev {
+            transform: translateX(0px); /* Move the previous button into view */
+            opacity: 1; /* Fade in */
+        }
+        
+        .swiper_pagination {
+            position: absolute;
+            bottom: 20px;
+        right: 0%;
+            }
+        
+         .swiper_pagination span{
+        
+        text-align: center;
+        background-color:#27AE60;
+        
+          z-index: 3;
+        }
+        }
