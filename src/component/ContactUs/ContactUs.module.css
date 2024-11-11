@@ -86,7 +86,7 @@ text-align: center;
     display: inline-block;
     font-weight: 400;
     color: #fff;
-    background-color: #380adf;
+    background-color: aqua;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -101,6 +101,14 @@ text-align: center;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
      cursor: pointer;
+    outline: 3px solid transparent;
+    
+}
+.contact_us .btn:hover{
+    background-color: #fdfdfd;
+    color: aqua;
+    outline: 3px solid aqua;
+    transition: all 0.5s ease-in-out;
 }
 
 .contact_us address .detail .heading {
