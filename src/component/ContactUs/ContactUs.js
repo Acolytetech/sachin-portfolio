@@ -50,9 +50,10 @@ const ContactUs = () => {
                                 <IoLocationOutline />
                             </div>
                             <div className={csscontact.detail}>
-                                <div className={csscontact.heading}>Get Us Here</div>
-                                B 340 Kanta Khaturia Colony,<br />
-                                Bikaner Rajasthan, 334003, India<br />
+                                
+                                <div className={csscontact.heading}>current address</div>
+                        Shivam Nagar jagatpura<br />
+                                jaipur Rajasthan, 302017, India<br />
                             </div>
                         </address>
                         <address className={` ${csscontact.clearfix} ${csscontact.d_flex} ${csscontact.align_items_center}`}>
@@ -61,7 +62,7 @@ const ContactUs = () => {
                             </div>
                             <div className={csscontact.detail}>
                                 <div className={csscontact.heading}>Call Us</div>
-                                <a href="tel:+917597373091" target="_blank" rel="noopener noreferrer">+91 7597373091</a>
+                                <a href="tel:+91 9664455006" target="_blank" rel="noopener noreferrer">+91 9664455006</a>
 
                               
                             </div>
@@ -72,7 +73,7 @@ const ContactUs = () => {
                             </div>
                             <div className={csscontact.detail}>
                                 <div className={csscontact.heading}>Write Us</div>
-                                <a href="mailto:ppcpl2005@gmail.com" target="_blank" rel="noopener noreferrer">ppcpl2005@gmail.com</a>
+                                <a href="mailto:sachinlawaniya1234@gmail.com" target="_blank" rel="noopener noreferrer">ppcpl2005@gmail.com</a>
 
                             </div>
                         </address>
