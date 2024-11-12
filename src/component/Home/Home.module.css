@@ -23,7 +23,9 @@
     /* Maintain aspect ratio */
     width: 100%;
     object-fit: cover;
-    border: 2px solid rgba(17, 17, 17, 0.445)
+    border: 2px solid rgba(17, 17, 17, 0.445);
+    pointer-events: none;
+    
 }
  
 .sliderArea {

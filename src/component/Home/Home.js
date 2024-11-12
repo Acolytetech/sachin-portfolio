@@ -55,7 +55,12 @@ const Home = () => {
             progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
         }
     };
-
+    document.querySelectorAll('img').forEach((img) => {
+        img.addEventListener('contextmenu', (event) => {
+            event.preventDefault();
+        });
+    });
+    
     return (
         <>
           <div className={styles.heroSection} id='home'>
@@ -71,7 +76,8 @@ const Home = () => {
                 loop={true}
             >
                 <SwiperSlide>
-                    <img src={BannerImg1} alt="Thumbnail 5" />
+                    <img src={BannerImg1} alt="Thumbnail 5"  />
+                   
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={BannerImg2} alt="Thumbnail 6" />

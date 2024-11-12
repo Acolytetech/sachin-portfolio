@@ -4,6 +4,7 @@ footer {
     text-align: center;
     padding-top: 70px;
     padding-bottom: 70px;
+    text-transform: uppercase;
 }
 
 .container_footer{
@@ -30,7 +31,7 @@ footer ul li a {
     color: #fff;
 }
 footer ul li a:hover{
-    color: #27AE60;
+    color: #0fb8ca;
 }
 
 .footer_pading{

@@ -29,14 +29,15 @@ const About = () => {
                             </div> */}
                             <div className={` ${cssabout.col_12} ${cssabout.about_left_col_md_6} ${cssabout.block}`}>
                                 <div className={cssabout.about_left}>
-                                    <ul>
+                                    {/* <ul>
                                         <li><FaCheck style={{ color: '#0ed7e5', marginRight: '10px' }} />Expert in crafting responsive, intuitive designs.</li>
-                                        {/* <li><FaCheck style={{ color: '#0ed7e5', marginRight: '10px' }} /> Proficient in HTML, CSS, JavaScript, React.js.</li> */}
+                                        <li><FaCheck style={{ color: '#0ed7e5', marginRight: '10px' }} /> Proficient in HTML, CSS, JavaScript, React.js.</li>
                                         <li><FaCheck style={{ color: '#0ed7e5', marginRight: '10px' }} />Focused on user-centric, visually appealing interfaces.</li>
                                         <li><FaCheck style={{ color: '#0ed7e5', marginRight: '10px' }} />Strategic thinker for technical challenges.</li>
-                                        {/* <li className={cssabout.mb_0}><FaCheck style={{ color: '#0ed7e5', marginRight: '10px' }} /> Turning concepts into functional realities.</li> */}
-                                        {/* <li className={cssabout.mb_0}><FaCheck style={{ color: '#0ed7e5', marginRight: '10px' }} /> Creating web solutions that inspire and engage.</li> */}
-                                    </ul>
+                                        <li className={cssabout.mb_0}><FaCheck style={{ color: '#0ed7e5', marginRight: '10px' }} /> Turning concepts into functional realities.</li>
+                                        <li className={cssabout.mb_0}><FaCheck style={{ color: '#0ed7e5', marginRight: '10px' }} /> Creating web solutions that inspire and engage.</li>
+                                    </ul> */}
+                                    <button type="button">VIEW RESUME</button>
                                 </div>
                             </div>
                         </div>

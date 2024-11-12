@@ -21,9 +21,9 @@ const ContactUs = () => {
         e.preventDefault();
  
         // EmailJS configuration (ensure these values are correct)
-        const serviceID = 'service_y4cczgr';
-        const templateID = 'template_zcdrmen';
-        const userID = 'E7-uSZlV56SJz6IGO';
+        const serviceID = 'service_zzcfknk';
+        const templateID = 'template_tf0dhea';
+        const userID = '8XQvps-LV9X9CRFH7';
  
         emailjs.send(serviceID, templateID, formData, userID)
             .then((response) => {
@@ -73,7 +73,7 @@ const ContactUs = () => {
                             </div>
                             <div className={csscontact.detail}>
                                 <div className={csscontact.heading}>Write Us</div>
-                                <a href="mailto:sachinlawaniya1234@gmail.com" target="_blank" rel="noopener noreferrer">sachinlawaniya1234@gmail.com</a>
+                                <a href="mailto:sachinlawaniya1234@gmail.com" target="_blank" rel="noopener noreferrer">sachinlawaniya1234@gmail.com </a>
 
                             </div>
                         </address>

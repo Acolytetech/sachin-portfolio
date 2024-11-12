@@ -104,7 +104,7 @@ const Navbar = () => {
                 className={`nav-link ${activeSection === 'team' ? 'active' : ''}`}
                 onClick={() => document.getElementById('team').scrollIntoView({ behavior: 'smooth' })}
               >
-                PROJECTS
+            Achievements & Certifications
               </p>
             </li>
             <li className="nav-item">
