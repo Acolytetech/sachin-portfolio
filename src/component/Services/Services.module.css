@@ -57,11 +57,12 @@
 .card_div_container{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(4,22%);
+    grid-template-columns: repeat(2,48%);
     justify-content: space-evenly;
     /* padding: 10px; */
     margin: 0px auto;
-    padding: 0px 20px;
+    /* padding: 0px 20px; */
+    gap: 50px;
 }
 .card_div{
     position: relative;
@@ -75,7 +76,7 @@
 }
 .card_div:hover{
 box-shadow:  rgba(255, 255, 255, 0.696) 0px 0px 50px;
-scale: 1.1;
+scale: 1.05;
 z-index: 2;
 transition: all 0.1s ease-in-out;
 }

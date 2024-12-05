@@ -1,6 +1,6 @@
 import React from 'react';
 import cssabout from './About.module.css';
-import aboutPic from '../../img/sachin profile pic.png'
+import aboutPic from '../../img/sachin fomal.jpg'
 import { FaCheck } from "react-icons/fa";
 const About = () => {
     return (
@@ -37,7 +37,7 @@ const About = () => {
                                         <li className={cssabout.mb_0}><FaCheck style={{ color: '#0ed7e5', marginRight: '10px' }} /> Turning concepts into functional realities.</li>
                                         <li className={cssabout.mb_0}><FaCheck style={{ color: '#0ed7e5', marginRight: '10px' }} /> Creating web solutions that inspire and engage.</li>
                                     </ul> */}
-                                    <button type="button">VIEW RESUME</button>
+                                    <button type="button" style={{padding:'10px 20px' , borderRadius:'20px'}}>VIEW RESUME</button>
                                 </div>
                             </div>
                         </div>
