@@ -186,7 +186,7 @@ background-color:#27AE60;
     @media (max-width:768px){
        
         .testimonial{ 
-            background-color:white;
+            /* background-color:rgb(8, 8, 8); */
             text-align: center;
             padding: 20px;
             font-family: "Poppins", sans-serif;
