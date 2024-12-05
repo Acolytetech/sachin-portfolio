@@ -193,6 +193,7 @@
     
     .portfolio_bottom_container {
         display: flex;
+        flex-wrap: wrap;
         /* flex-wrap: wrap; */
         justify-content: center;
         gap: 5px;
@@ -200,7 +201,7 @@
     }
     
     .Portfolio_bottom_col_12 {
-        flex: 1 0 25%; /* Adjust the percentage for sizing */
+        flex: 1 ; /* Adjust the percentage for sizing */
         margin-bottom: 0rem;
         height:fit-content;
         padding: 0px;
@@ -211,13 +212,16 @@
     .make4columns {
         position: relative;
         overflow: hidden;
-        height: 200px;
+        height:fit-content;
+        width: fit-content;
+        margin: 0px;
+        padding: 0px;
         
     }
     
     .picture {
         width: 100%;
-        height: 200px;
+        height: 60px;
         position: relative; /* Ensure the parent container is positioned */
     }
     
@@ -228,14 +232,14 @@
         object-fit: contain;
         transition: transform 0.3s ease-in-out; /* Transition for scaling */
         display: block; 
-        scale: 1.2;
+        scale: 1.5;
         
     }
     
     .make4columns:hover img {
         /* filter:contrast(0.9) ; */
         /* filter: grayscale(100%); Add a grayscale effect */
-        transform: scale(1.1); /* Adjust the scale factor for a subtler zoom effect */
+        transform: scale(1); /* Adjust the scale factor for a subtler zoom effect */
     }
     
     .text_overlay {
@@ -254,7 +258,7 @@
         width: 100%;
         height: 100%; 
         box-sizing: border-box; 
-        font-size: 14px;
+        font-size: 8px;
         text-transform: uppercase;
         text-shadow: 0px 0px 5px black;
     }
