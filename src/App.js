@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { useEffect,useState } from 'react';
 
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import {Home,About,Navbar,Teams,ContactUs,Footer,Testimonialslider,Portfolio,Projects} from './component';
 import Loader from './component/loader/Loader';

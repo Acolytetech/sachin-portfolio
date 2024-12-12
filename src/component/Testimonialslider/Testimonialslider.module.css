@@ -190,6 +190,8 @@ background-color:#27AE60;
             text-align: center;
             padding: 20px;
             font-family: "Poppins", sans-serif;
+            height: fit-content;
+
         
         }
         .testimonial h6{
