@@ -3,6 +3,9 @@ import cardimg1 from '../../img/sachin project image/project 1 vajraveltraders.p
 import cardimg2 from '../../img/sachin project image/project 2 dharmdev medical foundation  wordpress.png'
 import cardimg3 from '../../img/sachin project image/project 3 sloane virtual hospital react.png'
 import cardimg4 from '../../img/sachin project image/project 4 paruit trading react.png'
+import cardimg5 from '../../img/sachin project image/noblespgcollege-ac-in-2024-12-13-12_03_03.png'
+import cardimg6 from '../../img/sachin project image/MY PORTFOLIO WEBSITE.png'
+
 // import { useState } from 'react';
 import React from 'react';
 
@@ -112,6 +115,49 @@ const Projects = () => {
                 View Project
               </button>
           </div>
+          {/* /* card 5 */}
+          <div className={cardgridcss.card_div}>
+            <div className={`${cardgridcss.screen} , ${cardgridcss.card_img}`}>
+
+              <img className={cardgridcss.active_img} src={cardimg5} alt="placeholder" />
+              <img className={cardgridcss.onhover_scroll_img} src={cardimg5} alt="placeholder" />
+            </div>
+            <div className={cardgridcss.card_content}>
+              <h5>Project 5 (HTML,CSS,JS,BOOTSTRAP)</h5>
+              <p>
+
+              NOBLES PG COLLEGE ALWAR</p>
+            </div>
+
+                <button
+                className={cardgridcss.button_link}
+                onClick={() => window.open("https://www.noblespgcollege.ac.in/", "_blank")}
+              >
+                View Project
+              </button>
+          </div>
+            {/* /* card 6*/}
+            <div className={cardgridcss.card_div}>
+            <div className={`${cardgridcss.screen} , ${cardgridcss.card_img}`}>
+
+              <img className={cardgridcss.active_img} src={cardimg6} alt="placeholder" />
+              <img className={cardgridcss.onhover_scroll_img} src={cardimg6} alt="placeholder" />
+            </div>
+            <div className={cardgridcss.card_content}>
+              <h5>Project 6 (React js)</h5>
+              <p>
+
+              MY PORTFOLIO WEBSITE</p>
+            </div>
+
+                <button
+                className={cardgridcss.button_link}
+                onClick={() => window.open("https://sachin-portfolio-silk.vercel.app/", "_blank")}
+              >
+                View Project
+              </button>
+          </div>
+          
 
 
 
