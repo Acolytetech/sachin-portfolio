@@ -244,6 +244,9 @@
  
  
 @media (max-width:768px) and (min-width:300px) {
+    .heroSection{
+        height: 70vh;
+    }
     .mySwiper2 {
         margin: auto;
         display: block;
@@ -261,7 +264,7 @@
     .mySwiper2 img {
         height: 100%;
         /* Maintain aspect ratio */
-        width: 100%;
+        width: 70%;
         object-fit: cover;
         border: 2px solid rgba(17, 17, 17, 0.445)
     }
@@ -278,7 +281,7 @@
     .carouselText {
         position: absolute;
         width: 100%;
-        top: 50%;
+        top: 60%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;

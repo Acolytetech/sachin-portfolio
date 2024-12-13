@@ -226,7 +226,7 @@ a.btn.btn-primary {
 
 @media (max-width: 768px) {
     .navbar {
-      padding: 7px 0px;
+      padding: 1px 0px;
        
     }
     .navbar-brand h5{
@@ -259,10 +259,10 @@ a.btn.btn-primary {
     .navbar-collapse {
         /* flex-direction: column; */
         justify-content: center;
-        background-color: rgba(24, 23, 23, 0.772);
+        background-color: rgb(0, 0, 0);
         position: absolute;
         align-items: left;
-        top: 50px;
+        top: 5rem;
         right: 0;
         width: 150px;
         /* height: 80vh; */
@@ -276,7 +276,9 @@ a.btn.btn-primary {
         display: block;
         text-align: left;
     }
-
+.nav-item{
+    margin-bottom: 1rem;
+}
     .nav-link {
         padding: 10px;
         color: white;

@@ -128,18 +128,17 @@ right: 0%;
  .swiper_pagination span{
 
 text-align: center;
-background-color:#27AE60;
+background-color:aqua;
 
   z-index: 3;
 }
 @media (max-width:1024px) and (min-width:768px){
     .swiper_button_next, .swiper_button_prev {
-        background-color:#27AE60;
         border-radius: 50%;
         width: 10px;
         height: 10px;
         padding: 30px;
-        color: white;
+        color: aqua;
         scale: 0.7;
         opacity: 0; /* Initially invisible */
         position: absolute;
@@ -177,7 +176,6 @@ background-color:#27AE60;
      .swiper_pagination span{
     
     text-align: center;
-    background-color:#27AE60;
     
       z-index: 3;
     }
@@ -199,7 +197,6 @@ background-color:#27AE60;
             font-weight: 400;
             text-transform: uppercase;
             letter-spacing: 1px;
-            color: #27AE60;
             margin-bottom: 10px;
         }
         .testimonial h2{
@@ -216,13 +213,13 @@ background-color:#27AE60;
             
         }
         
+    
         .swiper_button_next, .swiper_button_prev {
-            background-color: #27AE60;
             border-radius: 50%;
             width: 10px;
             height: 10px;
             padding: 30px;
-            color: white;
+          color: #000;
             scale: 0.7;
             opacity: 1; /* Initially invisible */
             position: absolute;
@@ -260,7 +257,6 @@ background-color:#27AE60;
          .swiper_pagination span{
         
         text-align: center;
-        background-color:#27AE60;
         
           z-index: 3;
         }

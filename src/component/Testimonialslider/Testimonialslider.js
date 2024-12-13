@@ -75,11 +75,7 @@ export default function Testimonialslider() {
           nextEl: '.swiper-button-next', // Swiper's default class
           prevEl: '.swiper-button-prev', // Swiper's default class
         }}
-        pagination={{
-          el: '.swiper-pagination', // Swiper's default class
-          clickable: true,
-          type: 'bullets',
-        }}
+        pagination={false}
       >
         {/* Pagination Dots */}
         <div className="swiper-pagination"></div>

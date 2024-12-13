@@ -251,7 +251,6 @@ text-align: center;
             font-size: 16px;
             text-transform: uppercase;
             letter-spacing: 1px;
-            color: #27AE60;
             font-weight: 500;
             
             }
@@ -308,7 +307,6 @@ text-align: center;
             display: inline-block;
             font-weight: 400;
             color: #fff;
-            background-color: #27AE60;
             text-align: center;
             vertical-align: middle;
             -webkit-user-select: none;
@@ -330,7 +328,6 @@ text-align: center;
             font-size: 14px;
             text-transform: uppercase;
             letter-spacing: 1px;
-            color: #27AE60;
             padding-bottom: 0px;
             margin-bottom: 4px;
         }  
