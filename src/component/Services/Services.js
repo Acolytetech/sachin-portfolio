@@ -6,6 +6,7 @@ import cardimg4 from '../../img/sachin project image/project 4 paruit trading re
 import cardimg5 from '../../img/sachin project image/noblespgcollege-ac-in-2024-12-13-12_03_03.png'
 import cardimg6 from '../../img/sachin project image/MY PORTFOLIO WEBSITE.png'
 
+
 // import { useState } from 'react';
 import React from 'react';
 
@@ -16,6 +17,47 @@ const Projects = () => {
 
   return (
     <>
+     <div className={cardgridcss.container}>
+      <div className={cardgridcss.header}>
+        <h1>My Services</h1>
+        <p>"Check out the services I provide to help you succeed."</p>
+      </div>
+      <div className={cardgridcss.services}>
+        <div className={cardgridcss.servicecard}>
+          <img
+            src="https://img.freepik.com/free-photo/programming-background-collage_23-2149901770.jpg?ga=GA1.1.612286445.1736071973&semt=ais_hybrid"
+            alt="Frontend Development"
+          />
+          <div className={cardgridcss.cardbody}>
+            <h5 className={cardgridcss.cardtitle}>Frontend Development (React)</h5>
+          </div>
+        </div>
+        <div className={cardgridcss.servicecard}>
+          <img
+            src="https://img.freepik.com/free-vector/flat-design-ui-ux-background_23-2149093996.jpg?ga=GA1.1.612286445.1736071973&semt=ais_hybrid"
+            alt="UI/UX Design"
+          />
+          <div className={cardgridcss.cardbody}>
+            <h5 className={cardgridcss.cardtitle}>UI / UX Design <br/> (CANVA / FIGMA)</h5>
+          </div>
+        </div>
+        <div className={cardgridcss.servicecard}>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoMvc9-So987jMVtvLA2gm22MvyhatfKBdcA&s"
+            alt="Backend Development"
+          />
+          <div className={cardgridcss.cardbody}>
+            <h5 className={cardgridcss.cardtitle}>Backend Development (NODE.JS/SANITY.IO)</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
       <div className={cardgridcss.main_card_container} id="projects">
         <div className={cardgridcss.heading_container}>
           <div className={cardgridcss.upper_line}></div>
@@ -43,7 +85,7 @@ const Projects = () => {
               <p>
                 Vajravel Traders Private Limited
               </p>
-            
+
             </div>
             <button
                 className={cardgridcss.button_link}
@@ -86,7 +128,7 @@ const Projects = () => {
                 Sloane Virtual Hospital <br/></p>
             </div>
 
-                
+
                 <button
                 className={cardgridcss.button_link}
                 onClick={() => window.open("https://www.sloanevirtualhospital.com/", "_blank")}
@@ -157,7 +199,7 @@ const Projects = () => {
                 View Project
               </button>
           </div>
-          
+
 
 
 

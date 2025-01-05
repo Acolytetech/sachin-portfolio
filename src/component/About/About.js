@@ -3,7 +3,7 @@ import cssabout from './About.module.css';
 import aboutPic from '../../img/sachin fomal.jpg'
 import { FaCheck } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import resume from'../../img/resume.png'
+import resume from '../Document/sachin resume.pdf'
 const About = () => {
     return (
         <div className={cssabout.home_intro} id="about">
@@ -25,7 +25,12 @@ const About = () => {
                                 <li><Link to="https://www.instagram.com/sachinlawaniyadev/"><i className={`fa-brands fa-instagram ${cssabout.instagram}`}></i></Link></li>
                                 <li><Link href=""><i className={`fa-brands fa-pinterest-p ${cssabout.pinterest}`}></i></Link></li>
                                 <li><Link href=""><i className={`fa-solid fa-envelope ${cssabout.envelope}`}></i></Link></li>
-                                <li><Link href=""><i className={`fa-brands fa-whatsapp ${cssabout.whatsapp}`}></i></Link></li>
+                                <li>
+                                    <Link to="https://wa.me/9664455006" target="_blank">
+                                        <i className={`fa-brands fa-whatsapp ${cssabout.whatsapp}`}></i>
+                                    </Link>
+                                </li>
+
                             </ul>
                         </div>
                         <div className={` ${cssabout.about_left_flex} ${cssabout.pt - 4}`}>
@@ -40,7 +45,14 @@ const About = () => {
                                         <li className={cssabout.mb_0}><FaCheck style={{ color: '#0ed7e5', marginRight: '10px' }} /> Turning concepts into functional realities.</li>
                                         <li className={cssabout.mb_0}><FaCheck style={{ color: '#0ed7e5', marginRight: '10px' }} /> Creating web solutions that inspire and engage.</li>
                                     </ul> */}
-                                    <button type="button" style={{ padding: '10px 20px', borderRadius: '20px' }}><Link to={resume} target='blank'>VIEW RESUME</Link></button>
+                                    <button
+                                        onClick={() => window.open(resume, '_blank')}
+                                        type="button"
+                                        style={{ padding: '10px 20px', borderRadius: '20px', cursor: 'pointer' }}
+                                    >
+                                        Download Resume
+                                    </button>
+
                                 </div>
                             </div>
                         </div>
