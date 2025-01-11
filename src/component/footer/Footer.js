@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
         <div className={` ${cssfooter.footer_row} ${cssfooter.pt_3} ${cssfooter.copyright}`}>
           <div className={cssfooter.footer_col_12}>
-          PARUIT TRADING PRIVATE LIMITED © 2024
+    Sachin Lawaniya (Frondend devloper) since @  may-2024.
           </div>
         </div>
       </div>
