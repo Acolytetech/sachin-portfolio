@@ -225,7 +225,7 @@ const Projects = () => {
 
             </div>
             <div className={cardgridcss.card_content}>
-              <h5>Project 7 (Wix platform)</h5>
+              <h5>Project 8 (Wix platform)</h5>
               <p>JD Multi Pro (E-Commerce)</p>
 
             </div>
