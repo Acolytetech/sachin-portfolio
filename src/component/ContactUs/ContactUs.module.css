@@ -264,7 +264,7 @@ text-align: center;
             padding-bottom: 2rem ;
             align-items: center ;
             display: flex;
-            padding-left: 4.5rem;
+            padding-left: 0.5rem;
         }
         .contact_us address .icon {
             float: left;
