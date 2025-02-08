@@ -1,8 +1,10 @@
+
 .Portfolio_bottom {
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 0rem;
     padding-top: 3rem;
+
 }
 
 .Portfolio_bottom_col_12 {

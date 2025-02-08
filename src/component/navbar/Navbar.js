@@ -52,7 +52,7 @@ const Navbar = () => {
           </div>
           {/* <h5>SACHIN LAWANIYA</h5> */}
         </div>
-        <div className="navbar-brand black-logo">
+        <div className="navbar-brand black-logo" data-aos="zoom-out-left">
           <img src={logo} className="img-fluid" alt="black logo" />
           {/* <h5>SACHIN LAWANIYA</h5> */}
         </div>

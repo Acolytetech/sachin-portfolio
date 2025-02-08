@@ -5,6 +5,8 @@ footer {
     padding-top: 70px;
     padding-bottom: 70px;
     text-transform: uppercase;
+    max-width: 1400px;
+    margin: auto;
 }
 
 .container_footer{

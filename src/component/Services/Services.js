@@ -25,7 +25,8 @@ const Projects = () => {
           <p>"Check out the services I provide to help you succeed."</p>
         </div>
         <div className={cardgridcss.services}>
-          <div className={cardgridcss.servicecard}>
+          <div className={cardgridcss.servicecard} data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"  data-aos-duration="2000" >
             <img
               src="https://img.freepik.com/free-photo/programming-background-collage_23-2149901770.jpg?ga=GA1.1.612286445.1736071973&semt=ais_hybrid"
               alt="Frontend Development"
@@ -34,7 +35,8 @@ const Projects = () => {
               <h5 className={cardgridcss.cardtitle}>Frontend Development (React)</h5>
             </div>
           </div>
-          <div className={cardgridcss.servicecard}>
+          <div className={cardgridcss.servicecard} data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"  data-aos-duration="2000">
             <img
               src="https://img.freepik.com/free-vector/flat-design-ui-ux-background_23-2149093996.jpg?ga=GA1.1.612286445.1736071973&semt=ais_hybrid"
               alt="UI/UX Design"
@@ -43,7 +45,8 @@ const Projects = () => {
               <h5 className={cardgridcss.cardtitle}>UI / UX Design <br /> (CANVA / FIGMA)</h5>
             </div>
           </div>
-          <div className={cardgridcss.servicecard}>
+          <div className={cardgridcss.servicecard} data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom"  data-aos-duration="2000">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoMvc9-So987jMVtvLA2gm22MvyhatfKBdcA&s"
               alt="Backend Development"

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import styleportfolio from'./Portfolio.module.css';
+import styleportfolio from './Portfolio.module.css';
 import { motion } from "framer-motion";
 import html from '../../img/skills images/html.png';
 import css from '../../img/skills images/css-file-format-with-brackets.png';
@@ -9,7 +9,7 @@ import nodejs from '../../img/skills images/nodejs.png';
 import mongodb from '../../img/skills images/mongo db.jpg';
 import wordpress from '../../img/skills images/wordpress.png';
 import wixstudio from '../../img/skills images/wix.png';
-import figma from'../../img/skills images/figma.png';
+import figma from '../../img/skills images/figma.png';
 import canva from '../../img/skills images/canva-logo.png';
 
 
@@ -59,7 +59,7 @@ const Portfolio = () => {
       }
     }
   };
-  
+
   // Filtered portfolio items
   const filteredItems = portfolioItems.filter((item) =>
     activeFilter === '*' ? true : item.category === activeFilter
@@ -174,34 +174,34 @@ const Portfolio = () => {
           </div>
         </div>
         <motion.ul
-    className={styleportfolio.container}
-    variants={container}
-    initial="hidden"
-    animate="visible"
-  >
-        <div className={`${styleportfolio.portfolio_bottom_container}`}>
-          {displayedItems.map((item) => (
-             <div 
-             key={item.id} 
-             className={`Portfolio-bottom-col-12 portfolio-item ${item.category} ${animate ? 'animate__animated animate__backInRight' : ''}`}
-             style={{ animationDuration: '0.1s', animationTimingFunction: 'ease-in-out' }} // Smooth animation
-           >
-              <div className={styleportfolio.make4columns}>
-                <div className={styleportfolio.picture}>
-                  <img src={item.img} alt={item.title} className={styleportfolio.img_fluid} />
-                </div>
-                <div className={styleportfolio.text_overlay}>
-                  {/* <h4>{item.title}</h4> */}
-                  {<p>{item.description}</p> }
+          className={styleportfolio.container}
+          variants={container}
+          initial="hidden"
+          animate="visible"
+        >
+          <div className={`${styleportfolio.portfolio_bottom_container}`}>
+            {displayedItems.map((item) => (
+              <div
+                key={item.id}
+                className={`Portfolio-bottom-col-12 portfolio-item ${item.category} ${animate ? 'animate__animated animate__backInRight' : ''}`}
+                style={{ animationDuration: '0.1s', animationTimingFunction: 'ease-in-out' }} // Smooth animation
+              >
+                <div className={styleportfolio.make4columns}  data-aos="flip-left" data-aos-duration="2000">
+                  <div className={styleportfolio.picture}>
+                    <img src={item.img} alt={item.title} className={styleportfolio.img_fluid}  />
+                  </div>
+                  <div className={styleportfolio.text_overlay}>
+                    {/* <h4>{item.title}</h4> */}
+                    {<p>{item.description}</p>}
 
 
-        
 
+
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
         </motion.ul>
       </div>
     </section>

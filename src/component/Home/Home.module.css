@@ -1,6 +1,8 @@
 .heroSection {
     position: relative;
     /* height: fit-content; */
+    max-width: 1400px;
+    margin: auto;
 }
  
 .mySwiper2 {

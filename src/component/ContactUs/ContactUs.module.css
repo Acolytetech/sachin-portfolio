@@ -1,7 +1,8 @@
 .contact_us{
 padding-top: 120px;
     padding-bottom: 120px;
-   
+    max-width: 1400px;
+    margin: auto;
 }
 
 .contact_row{

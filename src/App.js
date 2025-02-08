@@ -3,6 +3,8 @@ import './App.css';
 import { useEffect,useState } from 'react';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import AOS CSS
 
 import {Home,About,Navbar,Teams,ContactUs,Footer,Testimonialslider,Portfolio,Projects} from './component';
 import Loader from './component/loader/Loader';
@@ -15,6 +17,10 @@ function App() {
           setLoading(false);
       }, 2000); // Yahan par 2 seconds delay diya hai, aap isse adjust kar sakte hain
   }, []);
+  useEffect(() => {
+    // Initialize AOS when the component mounts
+    AOS.init();
+  }, []); 
   return (
     <div>
     {loading ? (

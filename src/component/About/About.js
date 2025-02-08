@@ -4,30 +4,41 @@ import aboutPic from '../../img/sachin fomal.jpg'
 import { FaCheck } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import resume from '../Document/sachin resume.pdf'
+
 const About = () => {
     return (
         <div className={cssabout.home_intro} id="about">
             <div className={cssabout.container}>
                 <div className={cssabout.About_flex}>
                     <div className={cssabout.about_col_lg_5}>
-                        <img src={aboutPic} className={cssabout.img_fluid} alt="About Us" />
+                        <img src={aboutPic} className={cssabout.img_fluid} alt="About Us" data-aos="fade-right"/>
                     </div>
                     <div className={cssabout.about_col_lg_6}>
-                        <div className={cssabout.aboutText}>
+                        <div className={cssabout.aboutText} data-aos="fade-left">
                             <h6>About me</h6>
-                            <h2>I' am Sachin lawaniya
+                            <h2 >I' am Sachin lawaniya
                                 <h5>Front-End Devloper (React js)</h5>
                             </h2>
                             <h5 className={cssabout.pt - 2}>
                                 "Frontend developer passionate about designing and building user-centric, visually stunning websites. Skilled in the MERN stack, I create responsive, high-performance web applications that bring ideas to life."</h5>
                             <ul className={cssabout.socialList}>
-                                <li><Link to="https://www.facebook.com/sachinlawaniya.s.5/"><i className={`fa-brands fa-facebook-f ${cssabout.facebbok}`}></i></Link></li>
-                                <li><Link to="https://www.instagram.com/sachinlawaniyadev/"><i className={`fa-brands fa-instagram ${cssabout.instagram}`}></i></Link></li>
-                                <li><Link href=""><i className={`fa-brands fa-pinterest-p ${cssabout.pinterest}`}></i></Link></li>
-                                <li><Link href=""><i className={`fa-solid fa-envelope ${cssabout.envelope}`}></i></Link></li>
-                                <li>
+                                <li data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000"><Link to="https://www.facebook.com/sachinlawaniya.s.5/"><i className={`fa-brands fa-facebook-f ${cssabout.facebbok}`} ></i></Link></li>
+                                <li data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000"><Link to="https://www.instagram.com/sachinlawaniyadev/"><i className={`fa-brands fa-instagram ${cssabout.instagram}`} ></i></Link></li>
+                                <li data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000"><Link href=""><i className={`fa-brands fa-pinterest-p ${cssabout.pinterest}`} ></i></Link></li>
+                                <li data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000"><Link href=""><i className={`fa-solid fa-envelope ${cssabout.envelope}`} ></i></Link></li>
+                                <li data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="1000">
                                     <Link to="https://wa.me/9664455006" target="_blank">
-                                        <i className={`fa-brands fa-whatsapp ${cssabout.whatsapp}`}></i>
+                                        <i className={`fa-brands fa-whatsapp ${cssabout.whatsapp}`} ></i>
                                     </Link>
                                 </li>
 
@@ -45,12 +56,12 @@ const About = () => {
                                         <li className={cssabout.mb_0}><FaCheck style={{ color: '#0ed7e5', marginRight: '10px' }} /> Turning concepts into functional realities.</li>
                                         <li className={cssabout.mb_0}><FaCheck style={{ color: '#0ed7e5', marginRight: '10px' }} /> Creating web solutions that inspire and engage.</li>
                                     </ul> */}
-                                    <button
+                                    <button className={cssabout.resumebtn}
                                         onClick={() => window.open(resume, '_blank')}
                                         type="button"
                                         style={{ padding: '10px 20px', borderRadius: '20px', cursor: 'pointer' }}
                                     >
-                                        Download Resume
+                                      <span>Download Resume</span>
                                     </button>
 
                                 </div>

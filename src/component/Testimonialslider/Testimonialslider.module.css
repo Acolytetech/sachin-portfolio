@@ -3,6 +3,8 @@
     text-align: center;
     padding: 50px;
     font-family: "Poppins", sans-serif;
+    max-width: 1400px;
+    margin: auto;
     
 
 }
@@ -40,6 +42,8 @@
     position: relative;
     padding-bottom: 50px;
     color:rgb(70, 68, 68);
+    max-width: 1400px;
+    margin: auto;
 }
 
 .swiper_slide {

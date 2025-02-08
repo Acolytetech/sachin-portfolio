@@ -1,6 +1,7 @@
 .home_intro ,section {
     width: 100%;
     max-width: 1400px;
+    margin: auto;
     padding: 50px 0%;
     overflow-x: hidden;
     margin: 0px auto;
@@ -190,7 +191,45 @@ line-height: 30px;
       }
     }
   }
-
+.resumebtn{
+    background: #fff;
+    border: none;
+    border-radius: 0!important;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    width: fit-content;
+    text-transform: uppercase;
+    cursor: pointer;
+    transform: skew(-21deg);
+}
+.resumebtn span {
+    display: inline-block;
+    transform: skew(21deg);
+  }
+  .resumebtn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 100%;
+    left: 0;
+    background: rgb(20, 20, 20);
+    opacity: 0;
+    z-index: -1;
+    transition: all 0.5s;
+  }
+  
+  .resumebtn:hover {
+    color: #fff;
+  }
+  
+  .resumebtn:hover::before {
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
 
 @media (min-width: 768px) and (max-width:1024px) {
     section {
