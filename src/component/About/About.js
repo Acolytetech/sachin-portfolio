@@ -17,8 +17,9 @@ const About = () => {
                         <div className={cssabout.aboutText} data-aos="fade-left">
                             <h6>About me</h6>
                             <h2 >I' am Sachin lawaniya
-                                <h5>Front-End Devloper (React js)</h5>
+                               
                             </h2>
+                            <h5>Front-End Devloper (React js)</h5>
                             <h5 className={cssabout.pt - 2}>
                                 "Frontend developer passionate about designing and building user-centric, visually stunning websites. Skilled in the MERN stack, I create responsive, high-performance web applications that bring ideas to life."</h5>
                             <ul className={cssabout.socialList}>
