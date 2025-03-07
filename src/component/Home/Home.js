@@ -13,6 +13,7 @@ import 'swiper/css/free-mode';
 
 // Import CSS Module
 import styles from './Home.module.css';
+import Chatbot from '../Chatwot';
 
 const images = [
     {
@@ -63,6 +64,7 @@ const Home = () => {
     
     return (
         <>
+        <Chatbot/>
           <div className={styles.heroSection} id='home'>
 
             <Swiper
