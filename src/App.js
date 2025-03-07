@@ -8,6 +8,7 @@ import 'aos/dist/aos.css'; // Import AOS CSS
 
 import {Home,About,Navbar,Teams,ContactUs,Footer,Testimonialslider,Portfolio,Projects} from './component';
 import Loader from './component/loader/Loader';
+import Chatbot from './component/Chatwot';
 function App() {
   const [loading, setLoading] = useState(true);
 
@@ -28,6 +29,7 @@ function App() {
     ) : (
       <div className="App">
       <Navbar/>
+      <Chatbot/>
       <Home />
       <About />
       
